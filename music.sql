@@ -1,6 +1,7 @@
 DROP TABLE IF EXISTS Artists;
 DROP TABLE IF EXISTS Albums;
 DROP TABLE IF EXISTS Songs;
+
 CREATE TABLE Artists (
 	artist_id INTEGER PRIMARY KEY,
 	artist_name TEXT
